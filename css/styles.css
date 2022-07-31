@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0%;
+}
+body{
+    margin: 1%;
+    background-color: purple;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    border: 2px floralwhite ;
+    width: 30%;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(2,175,2);
+    color: white;
+}
+nav{
+    margin-top: 65px;
+    padding: 50px;
+    border: 2px black solid;
+    background-color: white;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-bottom: 20px;
+    align-self: center;
+}
+
+div{
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+section{
+    background-color: darkred;
+    border: 2px white solid;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    flex-grow: 3;
+    height: 550px;
+}
+article{
+    background-color: rgb(47,221,221);
+    border: 2px white solid;
+    margin: 15px;
+    margin-top: 20px;
+    width: 85%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+header{
+    height: 15%;
+    margin-top: 10px;
+    width: 95%;
+}
+p{
+    background-color: orange;
+    border: 4px white solid;
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 15%;
+}
+aside{
+    background-color: white;
+    border: 3px black solid;
+    height: 25px;
+    margin-top: 5px;
+    flex-grow: 1;
+    margin-right: 14px;
+}
+footer{
+    margin-top: 20px;
+    width: 90%;
+    background-color: white;
+    border: 2px black solid;
+    margin-top: 45px;
+    height: 35px;
+}
+.sec1{
+    width: 30%;
+    align-items: center;
+}
+
+.head1{
+    margin-top: 10px;
+    width: 90%;
+    height: 10%;
+    
+}
+.para1{
+    width: 95%;
+}
+.div1{
+    margin: 0;
+    display: flex;
+    width: 100%;
+    margin-top: 15px;
+    height: 25px;
+    align-items: flex-start;
+    border: 20px;
+}
+.para2{
+    margin-left: 14px;
+    flex-grow: 2;
+    margin-top: 5px;
+    height: 25px;
+}
+.nav1 nav{
+    height: 70%;
+    margin: 15px;
+    margin-bottom: 45px;
+}
+.sec2 header{
+    height: 10%;
+    width: 84%;
+    margin: 15px;
+}
+.foot2{
+    width: 100%;
+    background-color: white;
+    border: 2px black ;
+    height: 40px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
